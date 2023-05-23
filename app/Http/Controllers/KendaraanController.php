@@ -63,7 +63,7 @@ class KendaraanController extends Controller
             } else {
                 return ApiFormatter::createApi(400, 'Failed');
             }
-        } catch (\Throwable $th) {
+        } catch (Exception $error) {
             return ApiFormatter::createApi(400, 'Failed');
         }
         
