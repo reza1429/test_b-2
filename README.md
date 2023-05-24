@@ -15,7 +15,7 @@ pilih post dan masukkan hostname 'localhost:8000/api/login', masuk ke bagian hea
 
 
 10. akses data:
-- membuka fungsi stok => pilih get dan masukkan hostname 'localhost:8000/api/kendaraan/stok', masuk ke bagian headers dan masukkan key 'Authorization' dengan value 'Bearer <token saat login>'.
-- menjalankan fungsi penjualan motor => pilih get dan masukkan hostname 'localhost:8000/api/kendaraan/belimotor/(id motor)', masuk ke bagian headers dan masukkan key 'Authorization' dengan value 'Bearer <token saat login>'.
-- menjalankan fungsi penjualan mobil => pilih get dan masukkan hostname 'localhost:8000/api/kendaraan/belimobil/(id mobil)', masuk ke bagian headers dan masukkan key 'Authorization' dengan value 'Bearer <token saat login>'.
-- membuka laporan penjualan => pilih get dan masukkan hostname 'localhost:8000/api/kendaraan/penjualan', masuk ke bagian headers dan masukkan key 'Authorization' dengan value 'Bearer <token saat login>'.
+- membuka fungsi stok => pilih get dan masukkan hostname 'localhost:8000/api/kendaraan/stok', masuk ke bagian headers dan masukkan key 'Authorization' dengan value 'Bearer (token saat login)'.
+- menjalankan fungsi penjualan motor => pilih get dan masukkan hostname 'localhost:8000/api/kendaraan/belimotor/(id motor)', masuk ke bagian headers dan masukkan key 'Authorization' dengan value 'Bearer (token saat login)'.
+- menjalankan fungsi penjualan mobil => pilih get dan masukkan hostname 'localhost:8000/api/kendaraan/belimobil/(id mobil)', masuk ke bagian headers dan masukkan key 'Authorization' dengan value 'Bearer (token saat login)'.
+- membuka laporan penjualan => pilih get dan masukkan hostname 'localhost:8000/api/kendaraan/penjualan', masuk ke bagian headers dan masukkan key 'Authorization' dengan value 'Bearer (token saat login)'.
