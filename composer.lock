@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ec352e99ca819400639f928a0750df6b",
+    "content-hash": "322b9b42e13a04434f225369c04c59aa",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1095,6 +1095,62 @@
                 }
             ],
             "time": "2020-09-30T08:58:21+00:00"
+        },
+        {
+            "name": "jenssegers/mongodb-session",
+            "version": "v1.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jenssegers/laravel-mongodb-session.git",
+                "reference": "643d627968569082432141e6ae995d64535c3b57"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jenssegers/laravel-mongodb-session/zipball/643d627968569082432141e6ae995d64535c3b57",
+                "reference": "643d627968569082432141e6ae995d64535c3b57",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/session": "~4.0|~5.0|~6.0|~7.0|~8.0",
+                "jenssegers/mongodb": "*",
+                "php": ">=7.2"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Jenssegers\\Mongodb\\Session\\SessionServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Jenssegers\\Mongodb\\Session": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jens Segers",
+                    "homepage": "http://jenssegers.be"
+                }
+            ],
+            "description": "A MongoDB session driver for Laravel 4, 5, 6, 7 and 8",
+            "keywords": [
+                "driver",
+                "laravel",
+                "mongo",
+                "mongodb",
+                "session"
+            ],
+            "support": {
+                "issues": "https://github.com/jenssegers/laravel-mongodb-session/issues",
+                "source": "https://github.com/jenssegers/laravel-mongodb-session/tree/v1.4.0"
+            },
+            "time": "2020-10-08T14:15:08+00:00"
         },
         {
             "name": "laravel/framework",

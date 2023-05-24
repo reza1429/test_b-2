@@ -22,19 +22,10 @@ class RegisterController extends Controller
 
         $token = auth()->attempt($credentials);
 
-        return (new UserResource($request->user()))
-                ->additional(['meta' => [
-                    'token' => $token,
-                ]]);
+        return new UserResource($user);
     }
     public function login(LoginRequest $request)
     {
-        // $user = User::create([
-        //     'name' => $request->name,
-        //     'email' => $request->email,
-        //     'password' => bcrypt($request->password),
-        // ]);
-
         $credentials = $request->only('email', 'password');
 
         if(!$token = auth()->attempt($credentials)){
