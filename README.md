@@ -3,7 +3,7 @@
 3. buat salinan file '.env.example' dan rename menjadi '.env',
 4. konfigurasikan isi file env sesuai dengan konfigurasi yang ada di pc anda (settingan yang saya gunakan untuk connection: mongodb, host: 127.0.0.1, port: 27017),
 5. setalah itu jalankan perintah 'php artisan migrate --seed' untuk membuat database serta data menambahkan beberapa data yang telah saya buat,
-6. lalu jalankan perintah 'php artisan serve',
+6. lalu jalankan perintah 'php artisan jwt:secret' setelah itu 'php artisan serve',
 7. buka software postman lalu lakukan register dan login.
 
 
