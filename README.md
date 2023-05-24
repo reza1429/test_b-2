@@ -8,10 +8,10 @@
 
 
 8. register => 
-pilih post dan masukkan hostname 'localhost:8000/api/register', masuk ke bagian headers dan masukkan key 'Accept' dengan value 'application/json'. setelah itu masuk ke bagian body dan pilih x-www-form-urlencoded, setelah itu masukkan key key 'name', 'email', 'password' dengan value yang diinginkan namun untuk email hrs unik dan password harus lebih dari 5 karakter.
+pilih post dan masukkan hostname 'localhost:8000/api/register', masuk ke bagian headers dan masukkan key 'Accept' dengan value 'application/json'. setelah itu masuk ke bagian body dan pilih x-www-form-urlencoded, setelah itu masukkan key 'name', 'email', 'password' dengan value yang diinginkan namun untuk email hrs unik dan password harus lebih dari 5 karakter.
 
 9. login =>
-pilih post dan masukkan hostname 'localhost:8000/api/login', masuk ke bagian headers dan masukkan key 'Accept' dengan value 'application/json'. setelah itu masuk ke bagian body dan pilih x-www-form-urlencoded, setelah itu masukkan key key 'email', 'password' dengan value sesuai dengan yang telah dibuat di register.
+pilih post dan masukkan hostname 'localhost:8000/api/login', masuk ke bagian headers dan masukkan key 'Accept' dengan value 'application/json'. setelah itu masuk ke bagian body dan pilih x-www-form-urlencoded, setelah itu masukkan key 'email', 'password' dengan value sesuai dengan yang telah dibuat di register.
 
 
 10. akses data:
